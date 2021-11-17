@@ -9,6 +9,8 @@ import java.util.List;
 * Application specifies the product being used(product), what action is
 * taken with this product(action), where is it used(location), and how often is this
 * application used(frequency)
+*
+* Im not in love with the name
 * */
 @Entity
 public class Application {

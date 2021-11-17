@@ -23,4 +23,5 @@ public class HairRoutine {
     private List<Step> steps = new LinkedList<>();    //list of steps
 
 
+
 }

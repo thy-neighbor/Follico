@@ -1,6 +1,10 @@
 package com.neighbor.userservice.entity;
 
+import com.neighbor.userservice.constraints.annotations.Legend;
+import com.neighbor.userservice.constraints.legends.LegendType;
+
 import javax.persistence.*;
+import javax.validation.constraints.Pattern;
 
 @Entity
 public class Hair {
@@ -9,9 +13,16 @@ public class Hair {
     //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String hairType;
-    private String porosity;
-    private String damage;
+    @Pattern(regexp = "^[1-4][a-cA-C]$")
+    private String hairType;    // 2A, 4C, etc.
+
+    //make an enum or list of possible values, and make a custom validator that takes the list and checks validation
+    //probably going to call them legends
+    @Legend(LegendType.POROSITY)
+    private String porosity;    // low, medium, and high
+
+    @Legend(LegendType.DAMAGE)
+    private String damage;      //type of damage(can technically have multiple
 
     @OneToOne
     @MapsId

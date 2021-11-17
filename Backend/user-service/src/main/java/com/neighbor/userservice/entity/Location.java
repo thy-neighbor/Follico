@@ -10,9 +10,12 @@ public class Location {
     @Id
     private Integer locationId;
 
+    //we should account for international, which this technically does. we dont need their home addresses
+    // also
+
     private String city;
-    private int zipCode;
-    private String state;
+    private int zipCode;    //are you sure that zip code is a integer
+    private String state;   //or province
 
     @OneToOne
     @MapsId
