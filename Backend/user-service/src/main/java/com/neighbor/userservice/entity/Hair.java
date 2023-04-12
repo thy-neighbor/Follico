@@ -14,7 +14,7 @@ public class Hair {
     private Integer id;
 
     @Pattern(regexp = "^[1-4][a-cA-C]$")
-    private String hairType;    // 2A, 4C, etc.
+    private String hairType;    //2A, 4C, etc.
 
     //make an enum or list of possible values, and make a custom validator that takes the list and checks validation
     //probably going to call them legends

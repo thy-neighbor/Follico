@@ -1,6 +1,8 @@
 package com.neighbor.hairroutineservice.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.neighbor.hairroutineservice.constraints.annotations.Legend;
+import com.neighbor.hairroutineservice.constraints.legends.LegendType;
 
 import javax.persistence.*;
 import java.util.LinkedList;
@@ -13,6 +15,7 @@ public class Step {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer stepId;
 
+    @Legend(LegendType.STEPNAME)
     private String stepName;  //might use a enum to validate?
 
     @OneToMany(cascade = CascadeType.ALL,
