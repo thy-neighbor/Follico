@@ -1,4 +1,4 @@
-package com.neighbor.hairroutineservice;
+package com.neighbor.hair;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

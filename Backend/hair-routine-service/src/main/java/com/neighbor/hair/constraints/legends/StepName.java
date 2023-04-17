@@ -1,4 +1,4 @@
-package com.neighbor.hairroutineservice.constraints.legends;
+package com.neighbor.hair.constraints.legends;
 
 public enum StepName {
     PRE("PRE CLEANSE"),         //some people deep condition first, or just prep

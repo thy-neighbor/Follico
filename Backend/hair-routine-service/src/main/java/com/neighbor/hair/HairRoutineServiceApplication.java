@@ -1,4 +1,4 @@
-package com.neighbor.hairroutineservice;
+package com.neighbor.hair;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

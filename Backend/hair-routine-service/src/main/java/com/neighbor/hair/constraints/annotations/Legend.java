@@ -1,7 +1,7 @@
-package com.neighbor.hairroutineservice.constraints.annotations;
+package com.neighbor.hair.constraints.annotations;
 
 
-import com.neighbor.hairroutineservice.constraints.legends.LegendType;
+import com.neighbor.hair.constraints.legends.LegendType;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

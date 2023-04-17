@@ -1,8 +1,8 @@
-package com.neighbor.hairroutineservice.constraints.annotations;
+package com.neighbor.hair.constraints.annotations;
 
-import com.neighbor.hairroutineservice.constraints.legends.HairLocation;
-import com.neighbor.hairroutineservice.constraints.legends.LegendType;
-import com.neighbor.hairroutineservice.constraints.legends.StepName;
+import com.neighbor.hair.constraints.legends.HairLocation;
+import com.neighbor.hair.constraints.legends.LegendType;
+import com.neighbor.hair.constraints.legends.StepName;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
